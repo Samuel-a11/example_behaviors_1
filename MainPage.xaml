@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:example_behaviors_1"
+             x:Class="example_behaviors_1.MainPage">
+
+    <Label Text="Label Shadow Effect">
+        <Label.Behaviors>
+            <local:EffectBehavior Group="Xamarin" Name="LabelShadowEffect" />
+        </Label.Behaviors>
+    </Label>
+
+</ContentPage>
